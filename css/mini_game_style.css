@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
+
+.mini_game {
+    color: #fff;
+    font-family: "Khula", sans-serif;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.mini_game > .screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: margin 0.5s ease-out;
+    background: linear-gradient(90deg, #29323c 0%, #485563 100%);
+}
+
+.mini_game > .screen.up {
+    margin-top: -89vh;
+}
+
+.mini_game > .screen > h1 {
+    line-height: 1.4;
+    font-size: 4rem;
+}
+
+.start_game {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.start_game:hover{
+    color: #16d9e3;
+}
+
+.row_btn {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: flex;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.row_btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.row_btn > .col-header {
+    width: 100px;
+    height: 50px;
+    background-color: #485563;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    background: #38424d;
+    margin: 2px;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {}
