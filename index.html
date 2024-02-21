@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/car_slider_style.css">
+    <link rel="stylesheet" href="css/slider_style.css">
+    <link rel="stylesheet" href="css/mini_game_style.css">
+    <link rel="stylesheet" href="css/aim_taining_style.css">
+    <link rel="stylesheet" href="css/calendar_style.css">
+    <title>Prolects Kria_Kria</title>
+</head>
+
+<body>
+    <a href="#" class="prev btn">
+        <img src="img/prev_black.png" class="normal-img" alt="Previous">
+        <img src="img/prev_white.png" class="hover-img" alt="Previous">
+    </a>
+    <a href="#" class="next btn">
+        <img src="img/next_black.png" class="normal-img" alt="Next">
+        <img src="img/next_white.png" class="hover-img" alt="Next">
+    </a>
+
+    <div class="main_text">
+        <h1></h1>
+    </div>
+
+    <div class="container">
+        <div class="window car_slider">
+            <div class="sidebar">
+                <div style="background: linear-gradient(229.99deg, #B6CD73 -26%, #86A188 145%);">
+                    <h1>Nissan GTR</h1>
+                    <p>3.8 l, 540 p.h.</p>
+                </div>
+                <div style="background: linear-gradient(215.32deg, #AA3726 -1%, #5C0D13 124%);">
+                    <h1>Mercedes-Benz G63 AMG</h1>
+                    <p>4.0 l, 700 p.h.</p>
+                </div>
+                <div style="background: linear-gradient(221.87deg, #DFA4B0 1%, #F20026 128%);">
+                    <h1>Porshe 911</h1>
+                    <p>3.0 l, 180 p.h.</p>
+                </div>
+                <div style="background: linear-gradient(220.16deg, #68829C -8%, #295363 138%);">
+                    <h1>BMW M5</h1>
+                    <p>4.4 l, 625 p.h.</p>
+                </div>
+                <div style="background: linear-gradient(220.16deg, #EFF5F5 -8%, #D1DBDC 138%);">
+                    <h1>Audi RS6</h1>
+                    <p>4.0 l, 600 h.p.</p>
+                </div>
+                <div style="background: linear-gradient(220.16deg, #BCC6C6 -8%, #BBBCBC 138%);">
+                    <h1>Dodge Challenger</h1>
+                    <p>6.4 l, 485 h.p.</p>
+                </div>
+            </div>
+            <div class="main-slide">
+                <div
+                    style="background-image:
+                    url('https://images.unsplash.com/photo-1555353540-64580b51c258?q=80&w=978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+                <div
+                    style="background-image:
+                    url('https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+                <div
+                    style="background-image:
+                    url('https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+                <div
+                    style="background-image:
+                    url('https://images.unsplash.com/photo-1588258219511-64eb629cb833?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+                <div
+                    style="background-image:
+                    url('https://images.unsplash.com/photo-1703968950398-42b955e551d1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+                <div
+                    style="
+                    background-image: url('https://images.unsplash.com/photo-1602977050077-a669542f8dd8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                </div>
+            </div>
+            <div class="controls">
+                <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+        <div class="window hidden">
+            <div class="slider">
+                <h1 id="main-title">Popular Photo Camera</h1>
+                <div class="slide hidden vis" style="background-image: url('img/fujifilm.jpeg');">
+                    <h3>Fujifilm</h3>
+                </div>
+                <div class="slide hidden vis" style="background-image: url('img/canon.jpeg');">
+                    <h3>Canon</h3>
+                </div>
+                <div class="slide hidden vis" style="background-image: url('img/sony.jpeg')">
+                    <h3>Sony</h3>
+                </div>
+                <div class="slide hidden vis" style="background-image: url('img/leica.jpeg')">
+                    <h3>Leica</h3>
+                </div>
+                <div class="slide hidden vis" style="background-image: url('img/nikon.jpeg')">
+                    <h3>Nikon</h3>
+                </div>
+            </div>
+        </div>
+        <div class="window hidden mini_game">
+            <div class="screen">
+                <h1>Mini Game</h1>
+                <a href="#" class="start_game" id="start_game">Начать игру</a>
+            </div>
+
+            <div class="screen">
+                <div class="row_btn">
+                    <div class="col-header" data-size="100x100">10 x 10</div>
+                    <div class="col-header" data-size="225x225">15 x 15</div>
+                    <div class="col-header" data-size="400x400">20 x 20</div>
+                    <div class="col-header" data-size="625x625">25 x 25</div>
+                </div>
+                <div class="container_board" id="board_mini">
+                </div>
+            </div>
+        </div>
+        <div class="window hidden aim_taining">
+            <div class="pane">
+                <h1>Aim Training</h1>
+                <a href="#" class="start" id="start">Начать игру</a>
+            </div>
+
+            <div class="pane">
+                <h1>Выберите время</h1>
+                <ul class="time-list" id="time-list">
+                    <li>
+                        <button class="time-btn" data-time="10">10 с.</button>
+                    </li>
+                    <li>
+                        <button class="time-btn" data-time="20">20 с.</button>
+                    </li>
+                    <li>
+                        <button class="time-btn" data-time="30">30 с.</button>
+                    </li>
+                    <li>
+                        <button class="time-btn" data-time="40">40 с.</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pane">
+                <h1>Выберите размер шарика</h1>
+                <ul class="size-list" id="size-list">
+                    <li>
+                        <button class="size-btn" data-info="10,100">от 10 до 100</button>
+                    </li>
+                    <li>
+                        <button class="size-btn" data-info="10,50">от 10 до 50</button>
+                    </li>
+                    <li>
+                        <button class="size-btn" data-info="5,100">от 5 до 100</button>
+                    </li>
+                    <li>
+                        <button class="size-btn" data-info="5,50">от 5 до 50</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pane">
+                <h3>Осталось <span id="time">00:00</span></h3>
+                <div class="board" id="board"></div>
+            </div>
+
+            <div class="pane">
+                <p class="score-player" id="score-player">Ваш прошлый результат: </p>
+                <h1 id="score"></h1>
+                <a href="#" class="again" id="again">Начать заново</a>
+            </div>
+        </div>
+        <div class="window hidden calendar">
+            <div class="screen">
+                <div class="back" role="button" onclick="handleButtonClick('back')"><img src="img/back.png"></div>
+                <div class="calendar-wrapper">
+                    <h1 class="date"></h1>
+                    <button id="btnPrev" type="button">←</button>
+                    <button id="btnNext" type="button">→</button>
+                    <div id="divCal"></div>
+                </div>
+            </div>
+
+            <div class="screen hidden">
+                <div class="calendar_img" role="button" onclick="handleButtonClick('calendar')"><img src="img/calendar.png"></div>
+                <h1 class="current-date"></h1>
+                <div class="plus">Добавить задачу</div>
+                <div class="row">
+                    <div class="col-header start">Начать</div>
+                    <div class="col-header progress">В процессе</div>
+                    <div class="col-header done">Готово</div>
+                </div>
+                <div class="main">
+                    <div class="row" id="ph">
+                        <div class="placeholder one">
+                            <div class="item" draggable="true">
+                                <span class="delete" onclick="deleteItem(this)"><img src="img/trash.png" alt="Корзина"></span>                                    <span class="task" contenteditable="true">Задача</span>
+                            </div>
+                        </div>
+                        <div class="placeholder two"></div>
+                        <div class="placeholder three"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/car_slider.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/mini_game.js"></script>
+    <script src="js/aim_taining.js"></script>
+    <script src="js/calendar_mian.js"></script>
+    <script src="js/calendar_page.js"></script>
+</body>
+
+</html>
